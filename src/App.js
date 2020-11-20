@@ -9,8 +9,9 @@ import HomePage from "./pages/homepage/homepage.component";
 function App() {
   return (
     <div>
+      <Switch>
         <Route exact path='/' component={HomePage}/>
-      {/*<HomePage/>*/}
+      </Switch>
     </div>
   );
 }
