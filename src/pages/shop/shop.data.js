@@ -118,7 +118,7 @@ const SHOP_DATA =  [
     {
       id: 3,
       title: 'Plants with flowers',
-      routeName: 'plants with flowers',
+      routeName: 'flowerPalnts',
       items: [
         {
           id: 1,
@@ -155,7 +155,7 @@ const SHOP_DATA =  [
     {
       id: 4,
       title: 'Indoor plants',
-      routeName: 'indoor plants',
+      routeName: 'indoorPlants',
       items: [
         {
           id: 1,
@@ -204,7 +204,7 @@ const SHOP_DATA =  [
     {
       id: 5,
       title: 'Outdoor plants',
-      routeName: 'outdoor plants',
+      routeName: 'outdoorPlants',
       items: [
         {
           id: 1,
