@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  evergreens: {
     id: 1,
     title: 'Ever Greens',
     routeName: 'evergreens',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  exotics: {
     id: 2,
     title: 'Exotics',
     routeName: 'exotics',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  flowerPlants: {
     id: 3,
     title: 'Plants with flowers',
     routeName: 'flowerPlants',
@@ -152,7 +152,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  indoor: {
     id: 4,
     title: 'Indoor plants',
     routeName: 'indoor',
@@ -201,7 +201,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  outdoor: {
     id: 5,
     title: 'Outdoor plants',
     routeName: 'outdoor',
@@ -244,6 +244,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;

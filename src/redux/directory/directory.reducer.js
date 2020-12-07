@@ -10,7 +10,7 @@ const INITIAL_STATE = {
             title: 'plants with flowers',
             imageUrl: 'https://images.pexels.com/photos/5764075/pexels-photo-5764075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
             id: 2,
-            linkUrl: 'shop/flowers'
+            linkUrl: 'shop/flowerPlants'
         },
         {
             title: 'exotics',
