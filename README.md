@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Flower Time
+A simple plants online store.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Inspiration
+I wanted to learn how to make React.js web apps.
 
-## Available Scripts
+The app architecture/structure is mostly based on ideas I've seen in the Complete React Development course on Udemy.com and plants.com. 
 
-In the project directory, you can run:
+# Development stack
++ [React.js](https://reactjs.org/)
++ [React Router](https://reactrouter.com/)
++ I used [Firebase](https://firebase.google.com/) as my Database and user authentification.
++ I used [Stipe](https://stripe.com/) to process user payments and orders.
++ I used git for version control, and stored progress on GitHub.
++ Currently only tested on an iOS device
 
-### `yarn start`
+# APIs
++ Payment processing was implemented using Stripe (https://stripe.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# External packages
++ [react-redux]
++ [react-router-dom]
++ [reselect]
++ [styled-components]
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Current progress
+- [x] App skeleton
+- [x] Basic UI prototype
+- [x] Create main page
+- [x] Create Log in and Sign in Forms and Page
+- [x] Create first actions, reducers
+- [x] Implement Firebase authentification
+- [x] Add products page
+- [x] Add cart page
+- [x] Implement Redux
+- [x] Implement Stripe payments
+- [x] Move data to Firebase
+- [x] Create location and weather repositories backed by Realm
+- [ ] Finish Stripe payments implementation
+- [ ] Add Hooks
+- [ ] Add GraphQL
+- [ ] Implement Adming page
+- [ ] Create more products
+- [ ] Remove extra code and fix typos
+- [ ] Add support for mobile devices
 
-### `yarn test`
+# Running
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Clone & install
 
-### `yarn build`
++ Clone this repo `git@github.com:dieterhalosta/flower_time.git`
++ `cd flower_time`
++ run `npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API keys
++ Get your API key from https://firebase.google.com/
++ Get your API key from https://stripe.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Released under the [MIT License](http://opensource.org/licenses/MIT).
 
-### `yarn eject`
+# Feedback
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feedback is always welcome. Feel free to contact me, I would love to know if you notice something that can be done better.
