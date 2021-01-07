@@ -13,7 +13,7 @@ const WithSpinner = WrappedComponent => {
     );
 };
 
-return SpinnerContainer;
+return WithSpinner;
 
 };
 
