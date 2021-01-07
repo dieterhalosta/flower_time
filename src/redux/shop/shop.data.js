@@ -8,7 +8,7 @@ const SHOP_DATA = {
         id: 1,
         name: 'Philodendron - Monstera Deliciosa',
         imageUrl: 'https://images.pexels.com/photos/5075473/pexels-photo-5075473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-        stoc: 4,
+        stoc: 5,
         price: 125
       },
       {

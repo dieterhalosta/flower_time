@@ -3,7 +3,7 @@ import {SpinnerContainer, SpinnerOverlay} from './with-spinner.style';
 
 const WithSpinner = WrappedComponent => {
 
- const WithSpinner = ({isLoading, ...otherProps}) => {
+ const Spinner  = ({isLoading, ...otherProps}) => {
     return isLoading ? (
         <SpinnerOverlay>
             <SpinnerContainer/>
@@ -13,7 +13,7 @@ const WithSpinner = WrappedComponent => {
     );
 };
 
-return WithSpinner;
+return Spinner ;
 
 };
 
