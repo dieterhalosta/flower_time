@@ -35,11 +35,10 @@ The app architecture/structure is mostly based on ideas I've seen in the Complet
 - [x] Implement Redux
 - [x] Implement Stripe payments
 - [x] Move data to Firebase
-- [x] Create location and weather repositories backed by Realm
 - [ ] Finish Stripe payments implementation
 - [ ] Add Hooks
 - [ ] Add GraphQL
-- [ ] Implement Adming page
+- [ ] Implement Admin page
 - [ ] Create more products
 - [ ] Remove extra code and fix typos
 - [ ] Add support for mobile devices
