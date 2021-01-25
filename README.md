@@ -1,6 +1,8 @@
 # Flower Time
 A simple plants online store.
 
+<img src="images/HomePage.jpg">
+
 # Inspiration
 I wanted to learn how to make React.js web apps.
 
